@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="per.png">
+	<title>Employee Interests Survey</title>
+</head>
+<body style="color: yellow; text-align: center; align-content: center;" background="img1.jpg">
+	<table align="center" width="60%" style="backdrop-filter: blur(10px);">
+		<tr>
+			<th style="border: 2px solid black;">
+				<h1 style="color: #000 !important">Employee Interests Survey</h1>
+			</th>
+		</tr>
+		<tr>
+			<th align="left" style="border: 2px solid black;">
+				<h3>
+					Enter your name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name="UserName" size="35" maxlength="35">
+				</h3>
+				<h3>
+					Enter your department: &nbsp;
+					<input type="text" name="UserName" size="35" maxlength="35">
+				</h3>
+				<h3>
+					Tell us about yourself:<br>
+				</h3>
+				<textarea style="resize: none; width: 95%; height: 150px;" placeholder="I am Hamim.I am a......"></textarea>
+				<h3>
+					Do you exercise daily? <br>
+					<input type="radio" name="exe" value="1">Yes
+					<input type="radio" name="exe" value="2">No
+					<br>
+					How do you like to read about your favourite topics?<br>
+					<input type="checkbox" name="Books">Books <br>
+					<input type="checkbox" name="Online Resources">Online Resources <br>
+					<input type="checkbox" name="Phone Apps">Phone Apps <br>
+					<input type="checkbox" name="Magazines">Magazines<br>
+					<input type="checkbox" name="Websites">Websites<br>
+					What genre of movies do you like?
+					<select>
+						<option>Comedy</option>
+						<option>Romance</option>
+						<option>Horror</option>
+						<option>Thriller</option>
+						<option>Biopic</option>
+					</select>
+					<br>
+					<div style="text-align: center;">
+					<input type="Submit" value="Submit Form" id="btn" style="width: 100px;">
+					</div>
+				</h3>
+			</th>
+		</tr>
+	</table>
+</body>
+</html>
